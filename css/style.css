@@ -1,0 +1,30 @@
+       *{
+            color: brown;
+            text-align: center;
+            background-color: whitesmoke;
+          }
+          #meanHeading {
+            color: blue;
+            text-align: left;
+            background-color: lightgray;
+          }
+
+          .Subheading {
+            color: green;
+            text-align: right;
+            background-color: lightyellow;
+          }
+          p {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+          }
+    .decendant p {
+        color: purple;
+        font-weight: bold;
+    }
+
+    #h3,#text,.cointainer p {
+        color: orange;
+        font-style: italic;
+        font-size: 16px;
+    }

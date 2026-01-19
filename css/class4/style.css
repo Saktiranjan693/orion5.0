@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    background-color: rgb(219, 209, 209);
+    margin: 20px;
+}
+img{
+    height: 50px;
+    width:100px;
+    border-radius: 10px;
+}
+.box1{
+    display:inline;
+    height: 50px;
+    width: 100px;
+}
+.box2{display: inline-block;
+    height: 50px;
+    width: 100px;
+}
+.box3{display: block;
+}
+.box4{
+    display:none ;
+    height: 50px;
+    width: 100px;
+}

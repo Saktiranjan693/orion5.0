@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+#f{
+    margin:  auto;
+    margin-top: 200px;
+    height: 480px;
+    width: 380px;
+    background-color: white;
+
+    
+}
+#f1{
+    height: 200px;
+    width: 150px;
+    background-color:white;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
+  
+.inp{
+    height: 30px;
+    width: 250px;
+    border: none;
+    display: block;
+    background-color: white;
+    border-bottom: 2px solid rgb(31, 162, 145);   
+   
+    
+}
+#head{
+    padding: 30px 10px 0px 10px;
+    /* margin: 700px 20px 0px 20px; */
+   
+    background-color: white;
+    text-align: center;
+    
+}
+#n{
+    display:inline;
+    height: 50px;
+    
+}
+#e{
+     height: 50px;
+}
+#c{
+    height: 50px;
+}
+#p{
+    height: 50px;   
+}
+#pass{
+    height: 50px; 
+}
+#che{
+    background-color:white;
+    display:inline ;
+}
+pre{
+    background-color: white;
+}
+
+#btn{
+
+    height: 40px;
+    width: 160px;
+    background-color: rgb(31, 162, 145);
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/* #signin{
+       background-color: white;
+} */
+#prae{
+    height: 10px;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+}
+#sign{
+  
+background-color: white;  
+display: flex;
+margin: -20PX 00PX 7PX 180PX;
+
+}
+#smbl1{
+    display: flex;
+  
+    margin: 0px 0px 0px 355px;
+    cursor: pointer;
+    background-color: white;
+}
+#smbl1:hover{
+    background-color: red;
+    color: black;
+}

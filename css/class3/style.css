@@ -1,0 +1,54 @@
+#btn{
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+
+
+#btn:hover{
+    background-color: darkviolet;
+    cursor: pointer;
+}
+
+#btn:active{
+    background-color: indigo;
+    color: green;
+    height: 33px;
+    width: 95px;
+}
+#inp:focus{
+    border: 2px solid white;
+    background-color: rgb(71,69 ,69);
+}
+
+
+
+
+.para{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d83030;
+}
+.para:hover{
+    color: #3aba0b;
+    background-color: #f0f0f0;
+}
+
+.para::first-letter{
+    font-size: 24px;
+    color: #08e94f;
+    font-weight: bold;
+}
+.para::first-line{
+    font-size: 20px;
+    color: #0b74ab;
+    font-weight: bold;
+}
+.para::before{
+    content: "Hello ";
+}
+
+.para::after{
+    content: "Bye ";
+}
