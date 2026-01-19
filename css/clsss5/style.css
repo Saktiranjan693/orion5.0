@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    padding: 20px 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.navigation-list{
+    background-color: white;
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    gap: 30px;
+
+
+
+}
+.logo{
+    height: ;
+}
+.nav-btn{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
