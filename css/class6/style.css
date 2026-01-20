@@ -1,0 +1,35 @@
+.client{
+    background-color: white;
+    padding: 40px 150px;
+}
+.client h3, .client p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.client h3{
+    font-size: 35px;
+    color: #4d4d4d;
+}
+.client p{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.client-icons{
+   
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap:10px;
+    
+}
+.client-icons div{
+    background-color: #4d4d4d;
+    border: 5px solid blue;
+}
+.box1{
+    grid-row: span 2;
+}
+.box5{
+    grid-column: span 2;
+}
