@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height:50px ;
+    width: 100%;
+    padding: 20px 200px;
+    list-style: none;
+   
+    display: flex;
+    gap: 60px;
+    align-items: end;
+    /* margin-left: px; */
+    color: black;
+    justify-content: flex-end;
+}
+main{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+#about{
+height: 200px;
+
+}
+#about h1{
+    width: 600px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#about p{   
+     color: rgb(47, 46, 46);
+     font-size: 16px;
+     color: green;
+     width: 700px;
+     line-height: 1.6;
+}
+.btn{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+    font-weight: 700;
+    margin-top: 60px;
+    
+}
+#avatar img{
+    height: 200px;
+    width:200px;
+    
+}
+#post{
+    padding: 40px 200px;
+    display: flex;
+   flex-direction: column;
+   background-color: rgb(208, 251, 251);
+}
+#heading{
+    /* display: grid;
+    grid-template-columns: repeat(2,fr);    */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+#heading h3{
+
+    font-size: 30px;
+    font-weight: 400;
+}
+.mkdesing{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: white;
+}
+.head h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.dated{
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  gap: 10px;
+
+}
+.feb{
+    border-right: 2px solid red;
+    width: 100px;
+
+}
+#featuredwork{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+    gap: 20px;
+    background-color: white;
+}
+.design{
+    display: flex;
+    /* flex-direction: column; */
+}
+#image{
+    height: 100px ;
+    width: 200px;
+    background-color: red;
+}
+#btn2{
+    background-color: rgb(39, 39, 61);
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+}
+.btndash{
+    display: flex;
+    gap: 40px;
+}
