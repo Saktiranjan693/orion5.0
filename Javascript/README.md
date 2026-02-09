@@ -26,4 +26,13 @@ Variable Keywords in JavaScript:-
   - const stands for constant
   - if a  variable is declare using cont keyword we can neither re-declare  nor reinitialize the variable.
   - Const is a block scope variable
+Data Types in Js:-
+ 1. Primitive type:-
+   1. Number:-
+      let a=10;
+      let b=-10;
+      let  c=2.3;
+      console.log(type of a)
+     console.log(type of b)
+     console.log(type of c )
 
