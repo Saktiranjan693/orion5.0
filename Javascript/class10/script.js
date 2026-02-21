@@ -1,15 +1,19 @@
-// const image = document.getElementById('image')
+const image = document.getElementById('image')
 
 //! Attribute manipulation
 //? getAttribute()
-// console.log(image.getAttribute('src'));
-// console.log(image.getAttribute('height'));
+console.log(image.getAttribute('src'));
+console.log(image.getAttribute('height'));
+// console.log(image.getAttribute('width'));
+
 // const imgSrc = image.getAttribute('src')
+// console.log(imgSrc);
+
 
 // //? setAttribute()
-// image.setAttribute('class', 'thisIsImage class1 class2 class3')
-// // console.log(image);
-// image.setAttribute('src', 'https://cdn.pixabay.com/photo/2026/02/03/15/16/old-library-10102767_1280.jpg')
+image.setAttribute('class', 'thisIsImage class1 class2 class3')
+console.log(image);
+image.setAttribute('src', 'https://cdn.pixabay.com/photo/2026/02/03/15/16/old-library-10102767_1280.jpg')
 // image.style.border = '10px solid red'
 // image.style.width = '400px'
 
