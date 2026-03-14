@@ -27,9 +27,9 @@
     background-color: #4d4d4d;
     border: 5px solid blue;
 }
-.box1{
+.box{
     grid-row: span 2;
 }
-.box5{
+.box{
     grid-column: span 2;
 }
