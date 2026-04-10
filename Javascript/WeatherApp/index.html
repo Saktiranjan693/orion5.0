@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black ">
+      <div id="maincointainer" class="bg-[#ffffff] rounded-3xl border-4 border-amber-300 mt-30 ml-130  w-120">
+
+        <!-- city search   -->
+
+             <div class=" relative top-2  ml-5 w-40 ">
+                 <i class="fa-solid fa-magnifying-glass absolute top-1.5 left-2"></i>
+                <input type="text" name="" id="" placeholder="Search Your city" class="pl-10 border-2 rounded-xl border-blue-900">
+             </div>
+
+        <!-- Weather Data -->
+
+             <div  id="weatherInfo" class=" bg-amber-300 h-[45%] w-[60%] ml-23 mt-9 text-center">
+                <section class=" text-center">
+                    <h3>London,United Kingdom</h3>
+                </section>
+                <div>
+                    <p>date and time</p>
+                </div>
+                <div>
+                    <h1>Clouds (Forecast)</h1>
+                </div>
+                <div>
+                    <H2>Icons</H2>
+                </div>
+
+                <div class="">
+                    <h1>Degree</h1>
+                    <section class="flex pl-15 gap-8 items-center">
+                        <h1>min:488</h1> 
+                        <h1>max:277</h1>
+                    </section>
+                </div>
+             </div>
+
+        <!-- Weather Extra data -->
+             <div class="grid grid-cols-2 gap-2 pt-10 pb-5">
+                <div class="  relative bg-red-400 border-2 border-gray-400 shadow-3xl rounded-3xl flex gap-5">
+                    <i class=" absolute left-3 top-3 fa-solid fa-temperature-half text-2xl"></i>
+                    <div class="pl-15">
+                        <h3>feels Like</h3>
+                        <h3>275°C</h3>
+                    </div>
+                </div>
+                  <div  class="  relative bg-white border-2 border-gray-400 shadow-3xl rounded-3xl flex gap-5">
+                    <!-- <i class="fa-solid fa-droplet"></i> -->
+                    <i class=" absolute left-3 top-3 fa-solid fa-droplet text-2xl"></i>
+                    <div class="pl-15">
+                        <h3>Humidity</h3>
+                        <h3>89%</h3>
+                    </div>
+                </div>
+                  <div class="  relative bg-white border-2 border-gray-400 shadow-3xl rounded-3xl flex gap-5">
+                    <!-- <i class="fa-solid fa-wind"></i> -->
+                    <i class=" absolute left-3 top-3 fa-solid fa-solid fa-wind text-2xl"></i>
+                    <div class="pl-15">
+                        <h3>wind</h3>
+                        <h3>3.58m/s</h3>
+                    </div>
+                </div>  <div class="  relative bg-white border-2 border-gray-400 shadow-3xl rounded-3xl flex gap-5">
+                
+                    <i class=" absolute left-3 top-3 fa-solid fa-solid fa-gauge text-2xl"></i>
+                    <div class="pl-15">
+                        <h3>Pressure</h3>
+                        <h3>983pha</h3>
+                    </div>
+                </div>
+
+             </div>
+
+      </div>
+  
+      <script src="weather.js"> </script>
+    
+</body>
+</html>
